@@ -1,0 +1,61 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+.wrapper .heading{
+    font-size: 12vmin;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    
+}
+.button{
+    position:relative;
+    margin-bottom: 20px;
+    width: 100%;
+    float: right;
+    font-size: 50px;
+
+}
+.header
+{
+    font-size: 12vmin;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    
+}
+.add
+{
+    font-size: 8vmin;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    
+}
+form .form{
+    max-width: 500px;
+    padding: 10px;
+    width: 100%;
+    transform: translate(50% );
+
+}
+#data{
+    max-width: 500px;
+    padding: 10px;
+    width: 100%;
+    transform: translate(50% );
+
+}
+.head h1{
+    font-size: 8vmin;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.data{
+    max-width: 800px;
+    width: 100%;
+    margin-right: 100px;
+}

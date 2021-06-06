@@ -1,0 +1,100 @@
+*{margin: 0;padding: 0;box-sizing: border-box;text-decoration:none;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+/* signup code */
+.form{
+    padding: 20px 30px;
+    font-size:2vmin;
+}
+.form header{
+    font-size: 8vmin;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+
+}
+.form form{
+    margin: 20px 0;
+}
+.form form .error-txt{
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 10px ;
+    text-align: center;
+    border-radius:5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+}
+.form form .field{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form form .field input{
+    outline: none;
+}
+.form form .input input{
+    height: 5vmin;
+    width: 100%;
+    font-size: 2vmin;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+}
+.form form .name-details{
+    display: flex;
+}
+.form .name-details .field:first-child{
+    margin-right: 10vmin;
+}
+.form .name-details .field:last-child{
+    margin-left: 10vmin;
+}
+
+.form form .field label{
+    margin-bottom: 10px;
+}
+
+.form form .button input{
+    margin-top: 13px;
+    height: 40px;
+    border: none;
+    font-size: 2vmin;
+    font-weight: 400;
+    background: #333;
+    color: #fff;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+.form .link{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 2vmin;
+
+}
+.form .link a{
+    color: #333;
+}
+
+
+.form .link a:hover{
+    text-decoration: underline;
+}
+
+.form form .field i{
+position: absolute;
+right: 15px;
+color: black;
+top: 65%;
+transform :translateY(-50%);
+cursor: pointer;
+
+}
+/* css for login */
